@@ -1,0 +1,84 @@
+/*Main button */
+
+.btn {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	height: 75px;
+	width: 175px;
+	background: yellow;
+	font-size: 35px;
+	border: 3px solid black;
+}
+
+/* Right side button list */
+.btn-sml{
+	height: 50px;
+	width: 50px;
+	margin: 5px 0;
+	display: block;
+}
+
+.right{
+	position: relative;
+	top: -5em;
+	list-style-type: none;
+	margin: 0 5% 0 90%;
+}
+
+#red{
+	background: red;
+}
+
+#orange{
+	background: orange;
+}
+
+#green{
+	background: green;
+}
+
+#blue{
+	background: blue;
+}
+
+#purple{
+	background: purple;
+}
+
+#yellow{
+	background: yellow;
+}
+
+#last{
+	text-align: center;
+}
+
+/*overlay button */
+
+.container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	visibility: hidden;
+	text-align: center;
+}
+
+.container h1 {
+	display: block;
+	padding: 150px;
+	margin: 100px auto;
+	font-size: 50px;
+	width: 250px;
+	background: #4C4C4C;
+	border: 5px solid black;
+}
+
+#exit{
+	position: relative;
+	top: -200px;
+}
