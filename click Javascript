@@ -1,0 +1,62 @@
+
+//When button is clicked, thank you message pops up 
+
+function cover(){
+	var overlay = document.getElementsByClassName("container");
+	
+	for(var x = 0; x < overlay.length; x++){
+		overlay[x].style.visibility = "visible";
+	}
+};
+
+//When thank you is clicked it goes back to hidden
+
+function uncover(){
+	var coverUp = document.getElementsByClassName("container");
+	for(var y = 0; y < coverUp.length; y++){
+		coverUp[y].style.visibility = "hidden";
+	}
+};
+
+
+//when the button on side is clicked
+//the main buttons background changes to that color
+
+var btn_clr = document.getElementsByClassName("btn");
+
+function bgRed(){
+	for (var i = 0; i < btn_clr.length; i++ ) {
+	btn_clr[i].style.background="red";
+	}
+};
+
+function bgOrange(){
+	for (var i = 0; i < btn_clr.length; i++) {
+	btn_clr[i].style.background = "orange";
+	}
+};
+
+function bgGreen(){
+	for (var i = 0; i < btn_clr.length; i++) {
+	btn_clr[i].style.background = "green";
+	}
+};
+
+function bgBlue(){
+	for (var i = 0; i < btn_clr.length; i++) {
+	btn_clr[i].style.background = "blue";
+	}
+};
+
+function bgPurple(){
+	for (var i = 0; i < btn_clr.length; i++) {
+	btn_clr[i].style.background = "purple";
+	}
+};
+
+function bgYellow(){
+	for (var i = 0; i < btn_clr.length; i++) {
+	btn_clr[i].style.background = "yellow";
+	}
+};
+
