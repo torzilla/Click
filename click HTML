@@ -5,12 +5,12 @@
 	<meta name="author" content="Tor Rydberg">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="clickCSS.css">
-	<script type="text/Javascript" src="clickJS.js"></script>
+	
 </head>
 <body>
 	<div class="container">
 	
-		<h1 onclick=uncover()>Thank You</h1>
+		<h1 id="thank">Thank You</h1>
 		<h6 id="exit">Click to exit</h6>
 		
 	</div>
@@ -18,14 +18,14 @@
 	<button class="btn" onclick=cover()>Click me</button>
 
 	<ul class="right">
-		<li><button class="btn-sml" id="red" onclick=bgRed()></button></li>
-		<li><button class="btn-sml" id="orange" onclick=bgOrange()></button></li>
-		<li><button class="btn-sml" id="green" onclick=bgGreen()></button></li>
-		<li><button class="btn-sml" id="blue" onclick=bgBlue()></button></li>
-		<li><button class="btn-sml" id="purple" onclick=bgPurple()></button></li>
-		<li><button class="btn-sml" id="yellow" onclick=bgYellow()></button></li>
+		<li><button class="btn-sml" id="red"></button></li>
+		<li><button class="btn-sml" id="orange"></button></li>
+		<li><button class="btn-sml" id="green"></button></li>
+		<li><button class="btn-sml" id="blue"></button></li>
+		<li><button class="btn-sml" id="purple"></button></li>
+		<li><button class="btn-sml" id="yellow"></button></li>
 		<li id="last">pick a color</li>
 	</ul>
-
+	<script type="text/Javascript" src="clickJS.js"></script>
 </body>
 </html>
