@@ -1,4 +1,13 @@
 
+//variables
+var red = document.getElementById("red");
+var orange = document.getElementById("orange");
+var green = document.getElementById("green");
+var blue = document.getElementById("blue");
+var purple = document.getElementById("purple");
+var yellow = document.getElementById("yellow");
+var exit = document.getElementById("exit");
+var thank = document.getElementById("thank");
 //When button is clicked, thank you message pops up 
 
 function cover(){
@@ -17,7 +26,6 @@ function uncover(){
 		coverUp[y].style.visibility = "hidden";
 	}
 };
-
 
 //when the button on side is clicked
 //the main buttons background changes to that color
@@ -60,3 +68,12 @@ function bgYellow(){
 	}
 };
 
+//calling functions
+red.onclick = bgRed;
+orange.onclick = bgOrange;
+green.onclick = bgGreen;
+blue.onclick = bgBlue;
+purple.onclick = bgPurple;
+yellow.onclick = bgYellow;
+exit.onclick = cover;
+thank.onclick = uncover;
